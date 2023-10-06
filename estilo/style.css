@@ -37,12 +37,14 @@ header{
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     min-height: 150px;
     padding-top: 30px;
+    text-align: center;
     
 }
 
 
 header > h1{
-    text-align: center;
+    margin-bottom: 20px;
+    font-weight: normal;
     font-family: var(--fonte-destaque);
     margin-bottom: 20px;
     font-size: 3em;
@@ -55,9 +57,12 @@ header > h1{
 header > p{
     text-align: center;
     font-size: 1.2em;
-    width: 500px;
+    max-width: 600px;
     font-family: var(--fonte-padrao);
     margin: auto;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 main{
